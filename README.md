@@ -51,6 +51,13 @@ This project showcases the architecture and deployment of a secure, high-availab
   ✅ Telephony test branch to branch, HQ to HQ, HQ to Branch
 
 📂 Files Included
-* Packet Tracer.pkt file - 
+* Packet Tracer file - Campus-Area-Network-Topology using packet tracer.pkt
+* Campus area file configuration to each device - text file
+
+🏁 Conclusion
+Enterprise Readiness & Scalability
+The successful deployment of this Campus Area Network (CAN) shows we have a robust, enterprise-grade infrastructure that can support modern business demands. By integrating HSRP and EtherChannel, the network achieves high availability, ensuring that critical services like IP Telephony and Wireless mobility remain uninterrupted during hardware or link failures.
+
+The implementation of OSPF provides a scalable foundation for future expansion, while the strategic use of VTY Access Control Lists and MD5 Authentication ensures that the management plane is protected against unauthorized access. Overall, this project shows a strong grasp of the Cisco Lifecycle, from structured IP planning and hierarchical design to deploying a secure, multi-site communication environment.
     
 
