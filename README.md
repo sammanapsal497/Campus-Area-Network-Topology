@@ -40,4 +40,17 @@ This project showcases the architecture and deployment of a secure, high-availab
   - Printers
   - Cisco APs (WLC - Cisco Meraki)
 
+🧪 Testing & Verification
+  - Check out the Screenshots attached.
+  ✅ Devices within each VLAN obtained IPs dynamically from DHCP
+  ✅ Inter-VLAN communication verified via ping (IT dept. as open to all access)
+  ✅ OSPF successfully advertised networks between routers
+  ✅ SSH remote login tested from Test-PC
+  ✅ Port security tested with sticky MAC
+  ✅ WLAN devices connected successfully to APs
+  ✅ Telephony test branch to branch, HQ to HQ, HQ to Branch
+
+📂 Files Included
+* Packet Tracer.pkt file - 
+    
 
