@@ -4,9 +4,21 @@
 📌 Introduction
 This project showcases the architecture and deployment of a secure, high-availability Campus Area Network (CAN) connecting a Corporate HQ to a Remote Branch. The design utilizes a Hierarchical Model (Core, Distribution, and Access) to ensure scalability and efficient traffic flow across the enterprise.
 
-🔑 Key technical implementations include:
+🔑 Key technical implementations include
 * Redundancy & Reliability: Deployment of HSRP for gateway redundancy and EtherChannel for increased bandwidth and link-failover between switches.
 * Dynamic Routing & Connectivity: Implementation of OSPF to manage reachability between HQ and Branch locations, utilizing a structured IPv4 allocation scheme to prevent subnet overlap.
 * Unified Communications & Wireless: Integration of Cisco WLC and Lightweight APs for seamless campus-wide mobility, alongside IP Telephony (CME) and DHCP IP-Helper services for automated device provisioning.
 * Hardened Security: Execution of a 'Defense-in-Depth' strategy using MD5 OSPF Authentication, VTY Access Control Lists (ACLs), and SSH to secure the management plane across the entire infrastructure."
+
+🗂️ Network Overview
+* Departments:
+  > HEADQUEARTERS: IT DEPARTMENT, BUYING & PROCUREMENT DEPARTMENT, MARKETING  DEPARTMENT, ACCOUNTING DEPARTMENT.
+  > BRANCH: SALES FLOOR & COSTUMER EXPERIENCE, MERCHANDISE & LOGISTICS, LOCAL HUMAN RESOURCE.
+* Devices:
+  > HEADQUEARTERS: 6 Access Switch, 2 Multilayer Switch, 1 Core Router, 1 IP Phone Manager Router, Servers, Printers, Access Points, Workstation, IP Phones & Mobile Devices.
+  > BRANCH: 4 Access Switch, 2 Multilayer Switch, 1 Core Router, Printers, Workstation, IP Phones & Mobile Devices.
+* Routing Protocol: OSPF
+* Services: DHCP, SSH, Port Security, WLAN, WAN, Telephony.
+
+🖧 VLAN & IP Addressing Table
 
