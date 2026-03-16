@@ -12,11 +12,11 @@ This project showcases the architecture and deployment of a secure, high-availab
 
 🗂️ Network Overview
 * Departments:
-  > HEADQUEARTERS: IT DEPARTMENT, BUYING & PROCUREMENT DEPARTMENT, MARKETING  DEPARTMENT, ACCOUNTING DEPARTMENT.
-  > BRANCH: SALES FLOOR & COSTUMER EXPERIENCE, MERCHANDISE & LOGISTICS, LOCAL HUMAN RESOURCE.
+  - HEADQUEARTERS: IT DEPARTMENT, BUYING & PROCUREMENT DEPARTMENT, MARKETING  DEPARTMENT, ACCOUNTING DEPARTMENT.
+  - BRANCH: SALES FLOOR & COSTUMER EXPERIENCE, MERCHANDISE & LOGISTICS, LOCAL HUMAN RESOURCE.
 * Devices:
-  > HEADQUEARTERS: 6 Access Switch, 2 Multilayer Switch, 1 Core Router, 1 IP Phone Manager Router, Servers, Printers, Access Points, Workstation, IP Phones & Mobile Devices.
-  > BRANCH: 4 Access Switch, 2 Multilayer Switch, 1 Core Router, Printers, Workstation, IP Phones & Mobile Devices.
+  - HEADQUEARTERS: 6 Access Switch, 2 Multilayer Switch, 1 Core Router, 1 IP Phone Manager Router, Servers, Printers, Access Points, Workstation, IP Phones & Mobile Devices.
+  - BRANCH: 4 Access Switch, 2 Multilayer Switch, 1 Core Router, Printers, Workstation, IP Phones & Mobile Devices.
 * Routing Protocol: OSPF
 * Services: DHCP, SSH, Port Security, WLAN, WAN, Telephony.
 
