@@ -24,4 +24,20 @@ This project showcases the architecture and deployment of a secure, high-availab
 * Services: DHCP, SSH, Port Security, WLAN, WAN, Telephony.
 
 🖧 VLAN & IP Addressing Table
+  - Kindly check the Text file uploaded.
+
+⚙️ Implemented Technologies
+  - Hierarchical Network Design
+  - VLANs for departmental segmentation
+  - Inter-VLAN Routing using SVI
+  - OSPF is the dynamic routing protocol
+  - DHCP (Using Dedicated Server)
+  - SSH for secure remote access
+  - Port Security on Access Switches
+  - Wireless LAN (WLAN) for laptops and mobile devices
+  - WAN
+  - Telephony 
+  - Printers
+  - Cisco APs (WLC - Cisco Meraki)
+
 
