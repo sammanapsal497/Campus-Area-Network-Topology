@@ -35,7 +35,7 @@ This project showcases the architecture and deployment of a secure, high-availab
   - SSH for secure remote access
   - Port Security on Access Switches
   - Wireless LAN (WLAN) for laptops and mobile devices
-  - WAN
+  - CAN
   - Telephony 
   - Printers
   - Cisco APs (WLC - Cisco Meraki)
@@ -59,5 +59,9 @@ Enterprise Readiness & Scalability
 The successful deployment of this Campus Area Network (CAN) shows we have a robust, enterprise-grade infrastructure that can support modern business demands. By integrating HSRP and EtherChannel, the network achieves high availability, ensuring that critical services like IP Telephony and Wireless mobility remain uninterrupted during hardware or link failures.
 
 The implementation of OSPF provides a scalable foundation for future expansion, while the strategic use of VTY Access Control Lists and MD5 Authentication ensures that the management plane is protected against unauthorized access. Overall, this project shows a strong grasp of the Cisco Lifecycle, from structured IP planning and hierarchical design to deploying a secure, multi-site communication environment.
-    
 
+This project demonstrates professional-level networking skills in LAN/WAN design, VLAN segmentation, routing, security, and wireless integration.    
+
+📝Notes & Wish to do:
+* Packet Tracer V9 has some bugs, so expect some errors, and just save and exit, open it again.
+* Wish to do some ASA Firewalls; However, some configurations won't work with the Packet Tracer version.
