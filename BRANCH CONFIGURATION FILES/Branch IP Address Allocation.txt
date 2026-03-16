@@ -1,0 +1,64 @@
+The Stores (The Face)
+
+
+
+
+VLAN 110
+Branch Costumer WIFI :  172.16.10.0/24 - 254 host
+
+1st usable FSHRP address: gateway 172.16.10.1
+3rd usable address : MLS Primary IP Address 172.16.10.2
+4th usable address : MLS Secondary IP Address 172.16.10.3
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 200 / 51 host reserve ////////////
+
+
+Sales and Customer Experience
+
+VLAN 120
+Branch Workstation :  172.16.20.0/27 - 30 host
+
+1st usable FSHRP address: gateway 172.16.20.1
+3rd usable address : MLS Primary IP Address 172.16.20.2
+4th usable address : MLS Secondary IP Address  172.16.20.3
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 50 / 201 host reserve ////////////
+
+
+VLAN 61
+Branch - WIRELESS MANAGEMENT :  172.16.30.0/27 - 30 host
+
+1st usable FSHRP address: gateway 172.16.30.1
+3rd usable address : MLS Primary IP Address 172.16.30.2
+4th usable address : MLS Secondary IP Address  172.16.30.3
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 50 / 200 host reserve ////////////
+
+VLAN 21
+BRANCH - IP PHONE :  192.168.21.0/24 - 254 host
+
+1st usable address: gateway router 192.168.21.1
+3rd usable address : MLS Primary IP Address 192.168.21.2
+4th usable address : MLS Secondary IP Address  192.168.21.3
+TFTP: 192.168.20.1
+DHCP: 10.20.20.7
+
+
+////////////////////  Total host: 50 / 201 host reserve ////////////
+
+
+VLAN 199
+BRANCH MANAGEMENT IP :  192.168.199.0/24 - 254 host
+
+1st usable FSHRP address: gateway 192.168.199.1
+3rd usable address : MLS Primary IP Address 192.168.199.2
+4th usable address : MLS Secondary IP Address  192.168.199.3
+
+1st access switch: .4 - any
+
+DHCP: NO DHCP
+
+////////////////////  Total host: 200 / 51 host reserve ////////////
