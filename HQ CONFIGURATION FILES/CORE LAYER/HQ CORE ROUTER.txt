@@ -1,0 +1,127 @@
+HQ_ROUTER#sh running-config 
+Building configuration...
+
+Current configuration : 1525 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname HQ_ROUTER
+!
+!
+!
+enable secret 5 $1$mERr$hx5rVt7rPNoS4wqbXKX7m0
+!
+!
+!
+!
+!
+!
+ip cef
+no ipv6 cef
+!
+!
+!
+username global privilege 15 password 0 cisco
+!
+!
+license udi pid CISCO2911/K9 sn FTX1524E0K3-
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+ip domain-name global.com
+!
+!
+spanning-tree mode pvst
+!
+!
+!
+!
+!
+!
+interface GigabitEthernet0/0
+ ip address 10.20.20.33 255.255.255.252
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/1
+ ip address 105.100.50.2 255.255.255.252
+ duplex auto
+ speed auto
+!
+interface GigabitEthernet0/2
+ ip address 10.20.20.38 255.255.255.252
+ duplex auto
+ speed auto
+!
+interface Serial0/2/0
+ no ip address
+ clock rate 2000000
+ shutdown
+!
+interface Serial0/2/1
+ no ip address
+ clock rate 2000000
+ shutdown
+!
+interface FastEthernet0/3/0
+ switchport mode access
+!
+interface FastEthernet0/3/1
+ switchport mode access
+!
+interface FastEthernet0/3/2
+ switchport mode access
+!
+interface FastEthernet0/3/3
+ switchport mode access
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+router ospf 15
+ router-id 3.3.3.3
+ log-adjacency-changes
+ network 105.100.50.0 0.0.0.3 area 0
+ network 10.20.20.32 0.0.0.3 area 0
+ network 10.20.20.36 0.0.0.3 area 0
+!
+ip classless
+!
+ip flow-export version 9
+!
+!
+!
+!
+!
+!
+!
+line con 0
+ exec-timeout 3 0
+ password global
+ logging synchronous
+ login
+!
+line aux 0
+!
+line vty 0 4
+ login local
+ transport input ssh
+line vty 5 15
+ login local
+ transport input ssh
+!
+!
+!
+end

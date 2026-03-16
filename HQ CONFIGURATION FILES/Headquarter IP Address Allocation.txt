@@ -1,0 +1,91 @@
+The Headquarters (The Brain)
+
+
+
+
+VLAN 10
+IT Department within management:  192.168.1.0/27 - 30 host
+
+1st usable FSHRP address: gateway 192.168.1.1
+3rd usable address : MLS Primary IP Address 192.168.1.2
+4th usable address : MLS Secondary IP Address  192.168.1.3 
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 20 / 7 host reserve ////////////
+
+VLAN 30
+Buying and procurement Department:  192.168.1.64/27 - 30 host
+
+1st usable FSHRP address: gateway 192.168.1.65
+3rd usable address : MLS Primary IP Address 192.168.1.66
+4th usable address : MLS Secondary IP Address  192.168.1.67
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 20 / 7 host reserve ////////////
+
+VLAN 40
+Marketing Department:  192.168.1.96/27 - 30 host
+
+1st usable FSHRP address: gateway 192.168.1.97
+3rd usable address : MLS Primary IP Address 192.168.1.98
+4th usable address : MLS Secondary IP Address  192.168.1.99
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 20 / 7 host reserve ////////////
+
+
+VLAN 50
+Accounting Department :  192.168.1.128/27 - 30 host
+
+1st usable FSHRP address: gateway 192.168.1.129
+3rd usable address : MLS Primary IP Address 192.168.1.130
+4th usable address : MLS Secondary IP Address  192.168.1.131
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 20 / 7 host reserve ////////////
+
+VLAN 20
+HQ - IP PHONE :  192.168.20.0/24 - 254 host
+
+1st usable address: gateway router 192.168.20.1
+3rd usable address : MLS Primary IP Address 192.168.20.2
+4th usable address : MLS Secondary IP Address  192.168.20.3
+TFTP: 192.168.20.1
+DHCP: 10.20.20.7
+
+
+////////////////////  Total host: 50 / 200 host reserve ////////////
+
+VLAN 60
+HQ - WIRELESS MANAGEMENT :  192.168.60.0/24 - 254 host
+
+1st usable FSHRP address: gateway 192.168.60.1
+3rd usable address : MLS Primary IP Address 192.168.60.2
+4th usable address : MLS Secondary IP Address  192.168.60.3
+5th usable address : WIRELESS MANAGEMENT ADDRESS  192.168.60.4
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 50 / 200 host reserve ////////////
+
+VLAN 70
+HQ WIFI FOR GUEST :  192.168.70.0/24 - 254 host
+
+1st usable FSHRP address: gateway 192.168.70.1
+3rd usable address : MLS Primary IP Address 192.168.70.2
+4th usable address : MLS Secondary IP Address  192.168.70.3
+DHCP: 10.20.20.7
+
+////////////////////  Total host: 200 / 51 host reserve ////////////
+
+VLAN 99
+HQ MANAGEMENT IP :  192.168.99.0/24 - 254 host
+
+1st usable FSHRP address: gateway 192.168.99.1
+3rd usable address : MLS Primary IP Address 192.168.99.2
+4th usable address : MLS Secondary IP Address  192.168.99.3
+
+1st access switch: .4 - any
+
+DHCP: NO DHCP
+
+////////////////////  Total host: 200 / 51 host reserve ////////////
