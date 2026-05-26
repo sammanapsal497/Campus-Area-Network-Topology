@@ -65,3 +65,5 @@ This project demonstrates professional-level networking skills in LAN/WAN design
 📝Notes & Wish to do:
 * Packet Tracer V9 has some bugs, so expect some errors, and just save and exit, open it again.
 * Wish to do some ASA Firewalls; However, some configurations won't work with the Packet Tracer version.
+
+👨‍💻 Developed by Engr. Sam Laurence Manapsal ECT, CCNA
